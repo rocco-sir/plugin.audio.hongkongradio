@@ -44,4 +44,4 @@ xbmcplugin.addDirectoryItem(int(sys.argv[1]), urlrthk5, item28, isFolder=0)
 item29 = xbmcgui.ListItem('PTH', iconImage="special://home/addons/plugin.audio.hongkongradio/resources/media/pth.png")
 xbmcplugin.addDirectoryItem(int(sys.argv[1]), urlpth, item29, isFolder=0)   
 
-xbmcplugin.endOfDirectory(pluginhandle)
+xbmcplugin.endOfDirectory(int(sys.argv[1]))
