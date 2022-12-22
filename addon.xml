@@ -14,5 +14,9 @@
         <description lang="en">Hong Kong Radio, including channels from RTHK and Commercial Radio</description>
 		<description lang="zh">香港收音機, 包括來自香港電台及商業電台頻道</description>
     <platform>all</platform>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+    </assets>	    
     </extension>
 </addon>
