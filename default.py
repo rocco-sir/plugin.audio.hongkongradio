@@ -7,15 +7,15 @@ import xbmcaddon
 addon = xbmcaddon.Addon()
 
 # URL list
-url881 = 'https://#'
-url903 = 'https://#'
-url864 = 'https://#'
-urlrthk1 = 'https://rthk.hk/live1.m3u'
-urlrthk2 = 'https://rthk.hk/live2.m3u'
-urlrthk3 = 'https://rthk.hk/live3.m3u'
-urlrthk4 = 'https://rthk.hk/live4.m3u'
-urlrthk5 = 'https://rthk.hk/live5.m3u'
-urlpth = 'https://rthk.hk/livepth.m3u'
+url881 = "https://#"
+url903 = "https://#"
+url864 = "https://#"
+urlrthk1 = "https://rthk.hk/live1.m3u"
+urlrthk2 = "https://rthk.hk/live2.m3u"
+urlrthk3 = "https://rthk.hk/live3.m3u"
+urlrthk4 = "https://rthk.hk/live4.m3u"
+urlrthk5 = "https://rthk.hk/live5.m3u"
+urlpth = "https://rthk.hk/livepth.m3u"
 #
 item21 = xbmcgui.ListItem('881 WIP', iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/881.png')
 xbmcplugin.addDirectoryItem(int(sys.argv[1]), url881, item21, isFolder=0)
