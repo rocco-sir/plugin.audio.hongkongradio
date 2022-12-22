@@ -26,7 +26,7 @@ xbmcplugin.addDirectoryItem(int(sys.argv[1]), url903, item22, isFolder=0)
 item23 = xbmcgui.ListItem('864 WIP', iconImage="special://home/addons/plugin.audio.hongkongradio/resources/media/864.png")
 xbmcplugin.addDirectoryItem(int(sys.argv[1]), url864, item23, isFolder=0)     
 
-item24 = xbmcgui.ListItem('RTHK 1, iconImage="special://home/addons/plugin.audio.hongkongradio/resources/media/radio1.png")
+item24 = xbmcgui.ListItem('RTHK 1', iconImage="special://home/addons/plugin.audio.hongkongradio/resources/media/radio1.png")
 xbmcplugin.addDirectoryItem(int(sys.argv[1]), urlrthk1, item24, isFolder=0)     
 
 item25 = xbmcgui.ListItem('RTHK 2', iconImage="special://home/addons/plugin.audio.hongkongradio/resources/media/radio2.png")
