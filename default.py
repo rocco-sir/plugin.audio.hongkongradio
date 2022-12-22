@@ -8,40 +8,31 @@ translation = addon.getLocalizedString
 
 def index():
         li = xbmcgui.ListItem(translation(30001), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/881.png')
-        url = 'http://s06.hktoolbar.com/radio-HTTP/cr1-hd.3gp/playlist.m3u8'
+        url = 'https://#'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)
         li = xbmcgui.ListItem(translation(30002), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/903.png')
-        url = 'http://s06.hktoolbar.com/radio-HTTP/cr2-hd.3gp/playlist.m3u8'
+        url = 'https://#'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)
         li = xbmcgui.ListItem(translation(30003), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/864.png')
-        url = 'http://s06.hktoolbar.com/radio-HTTP/cr2-hd.3gp/playlist.m3u8'
+        url = 'https://#'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)     
         li = xbmcgui.ListItem(translation(30011), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/radio1.png')
-        url = 'http://stmw2.rthk.hk/live/smil:radio1_aac_1.smil/playlist.m3u8'
+        url = 'https://rthk.hk/live1.m3u'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)     
         li = xbmcgui.ListItem(translation(30012), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/radio2.png')
-        url = 'http://stmw2.rthk.hk/live/smil:radio2_aac_1.smil/playlist.m3u8'
+        url = 'https://rthk.hk/live2.m3u'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
         li = xbmcgui.ListItem(translation(30013), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/radio3.png')
-        url = 'http://stmw2.rthk.hk/live/smil:radio3_aac_1.smil/playlist.m3u8'
+        url = 'https://rthk.hk/live3.m3u'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
         li = xbmcgui.ListItem(translation(30014), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/radio4.png')
-        url = 'http://stmw2.rthk.hk/live/smil:radio4_aac_1.smil/playlist.m3u8'
+        url = 'https://rthk.hk/live4.m3u'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
         li = xbmcgui.ListItem(translation(30015), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/radio5.png')
-        url = 'http://stmw2.rthk.hk/live/smil:radio5_aac_1.smil/playlist.m3u8'
+        url = 'https://rthk.hk/live5.m3u'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
         li = xbmcgui.ListItem(translation(30016), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/pth.png')
-        url = 'http://stmw3.rthk.hk/live/smil:pth_aac_1.smil/playlist.m3u8'
-        xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
-        li = xbmcgui.ListItem(translation(30017), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/dab31.png')
-        url = 'http://stmw2.rthk.hk/live/smil:dab31_aac_1.smil/playlist.m3u8'
-        xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
-        li = xbmcgui.ListItem(translation(30018), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/dab33.png')
-        url = 'http://stmw2.rthk.hk/live/smil:dab33_aac_1.smil/playlist.m3u8'
-        xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
-        li = xbmcgui.ListItem(translation(30019), iconImage='special://home/addons/plugin.audio.hongkongradio/resources/media/dab35.png')
-        url = 'http://stmw2.rthk.hk/live/smil:dab35_aac_1.smil/playlist.m3u8'
+        url = 'https://rthk.hk/livepth.m3u'
         xbmcplugin.addDirectoryItem(handle=pluginhandle, url=url, listitem=li)   
         xbmcplugin.endOfDirectory(pluginhandle)
 
