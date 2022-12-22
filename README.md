@@ -1,6 +1,6 @@
 Hong Kong Radio Addon for Kodi Matrix
 ------------------------------------
 
-Old versiion from Kodi SuperRepo
+Old fork V0.2.0 from Kodi SuperRepo
 
-New version for Kodi
+New version V0.2.1 for Kodi Matrix
